@@ -1,8 +1,3 @@
--- Čau! Ak si toto dumpol, tak si mega veľká píča a prajem ti ten najhorší deň, aký si kedy mohol mať.
--- Ak by si bol zasa z tých ktorý stále pindajú že toto není custom apod. , tak sa radšej choď zakopať.
--- Niečo som si sám napísal, ako ten kód ktorý odstraňuje pedov a weapon wheel. Pomohol mi marvis a strin. Díky moc.
--- A ty čo si to dumpol. Venujem ti video. https://www.youtube.com/watch?v=dQw4w9WgXcQ
--- A tento framework ti ani poriadne nepojde, lebo potrebuje Server side, ale ten bohuzial nikdy neziskas BOOHOOOO :(((
 local localPlayerId = PlayerId()
 local serverId = GetPlayerServerId(localPlayerId)
 local serverPlayerId = GetPlayerFromServerId(playerServerId)
@@ -121,7 +116,7 @@ Citizen.CreateThread(function()
 end)
 
 
--------- TELEPORTY ---------- PANE KUBČO NESAHEJTE NA TO  A NEZLOBTE!!!!
+-------- TELEPORTY ---------- 
 -- PARAMETERS
 local NURBURGRING_MARKER_SIZE = 5.0
 local NURBURGRING_COORDS_GP = { x = 3680.0, y = -6520.0, z = 2191.0, heading = 135.0 }
@@ -944,7 +939,7 @@ end
 
 --[[
 
-ČAUKY PANE TADI JSOU 3D TEXTY A VISTE PICA KDIS DUMPUJETE MUJ SERVR HAHAHAHA
+3DTEXTS
 
 
 ]]--
@@ -1023,7 +1018,7 @@ function Negrovina()
 	end
 end
 
--------------------------------NEJAKE PICOVINKY ALE TY TOMU CHAPAT NEBUDES :(----------------------------------------------------------------------------------
+-------------------------------Funkcia    MAM RAD ODDELENE 3DTEXTY :DDD----------------------------------------------------------------------------------
 function Draw3DText(x,y,z,textInput,fontId,scaleX,scaleY)
          local px,py,pz=table.unpack(GetGameplayCamCoords())
          local dist = GetDistanceBetweenCoords(px,py,pz, x,y,z, 1)    
